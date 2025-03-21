@@ -6,14 +6,29 @@
     <meta charset="utf-8"/>
   </head>
   <body>
-    <h1>Listagem de Clientes</h1>
-     <p>Clientes ja cadastrados no sistema.</p>
+    <h1>Customers list</h1>
+     <p>Customers already registered in system.</p>
+     <table style ="width: 50%;">
      <thead>
-      <tr style = "background-color: #CCC;"
+      <tr style = "background-color: #CCC;">
       <td style="width: 50%;">Name</td>
       <td style="width: 15%;">Age</td>
       <td style="width: 15%;">UF</td>
-      td
+      <td>Actions</td>
+      </tr>
      </thead>
+     <tbody>
+      <tr>
+        <td colspan="4">No registration found.</td>
+      </tr>
+     </tbody>
+     <tfoot>
+      <tr>
+        <td colspan="4">
+          <a href="/new">New Registration</a>
+        </td>
+      </tr>
+     </tfoot>
+    </table>
   </body>
 </html>
